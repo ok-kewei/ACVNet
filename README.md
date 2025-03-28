@@ -31,7 +31,7 @@ To run the test and generate the depth map, execute:
 python test.py
 
 ```
-## Note to myself 
+## Note 
 1. Input dimensions have be divisible by 16 due to the architecture's downsampling layers.
 2. Error message encountered: "return torch.batch_norm(
 torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 600.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 197.31 MiB is free. Process 6973 has 382.00 MiB memory in use"." </br>
